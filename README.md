@@ -1,4 +1,4 @@
-#OPEN-SOURCE STREAMING SITE
+# OPEN-SOURCE STREAMING SITE
 <br><br>
 This is a heavy moodification of a personal project I started in high school for movie streaming. It is based on this 
 <br>
