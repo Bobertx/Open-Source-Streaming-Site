@@ -1,0 +1,77 @@
+@import "https://fonts.googleapis.com/css?family=Readex+Pro&display=swap";
+
+* {
+box-sizing:border-box;
+transition:1s
+}
+
+html {
+background:#0d1020;
+color:#fff;
+font-family:Readex Pro;
+text-align:center
+}
+
+.cover {
+border-radius:10px;
+display:block;
+height:170px;
+width:300px;
+padding:10px;
+margin: 30px auto
+}
+
+.cover:hover {
+background:linear-gradient(90deg,#2e40ad,#6969F4,#6969F4,#2e40ad);
+background-size:400%;
+animation:gradientbg 4s infinite;
+transform:translate(0%,-5%)
+}
+
+section {
+border-radius:70px;
+background-color:#1a183f;
+position:relative;
+width:100%;
+max-width:1048px;
+margin:0 auto 50px;
+padding:0 40px 40px;
+}
+
+h1 {
+padding:20px;
+font-size:40px
+}
+
+img {
+border-radius:10px;
+width:280px;
+height:150px
+}
+
+@media screen and (min-width: 720px) {
+.cover {
+display:inline-block;
+margin:20px 0 0
+}
+}
+
+@media screen and (min-width: 1050px) {
+.cover:nth-of-type(2n) {
+margin:20px 0 0
+}
+
+.cover:nth-of-type(3n-1) {
+margin:20px 20px 0
+}
+}
+
+@keyframes gradientbg {
+50% {
+background-position:100% 50%
+}
+
+100% {
+background-position:0 50%
+}
+}
